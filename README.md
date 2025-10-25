@@ -59,6 +59,8 @@ pip install -r requirements.txt
 
 ## 🏋️ Training
 
+change config.ymal to your own data dir
+
 ```bash
 CUDA_VISIBLE_DEVICES=your_device_id python VP_code/main_gan.py --name RNN_Swin_4 --model_name RNN_Swin_4 --epoch 20 --nodes 1 --gpus your_device_number --discriminator_name discriminator_v2 --which_gan hinge
 ```
