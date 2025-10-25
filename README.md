@@ -60,7 +60,7 @@ pip install -r requirements.txt
 ## 🏋️ Training
 
 ```bash
-ToDO Coming Soon
+CUDA_VISIBLE_DEVICES=your_device_id python VP_code/main_gan.py --name RNN_Swin_4 --model_name RNN_Swin_4 --epoch 20 --nodes 1 --gpus your_device_number --discriminator_name discriminator_v2 --which_gan hinge
 ```
 
 
@@ -68,16 +68,14 @@ ToDO Coming Soon
 
 ### Test on Validation Set
 
+For pair-wise data
 ```
-ToDO Coming Soon
+python VP_code/test.py --name RNN_Swin_4 --model_name RNN_Swin_4 --which_iter 200000 --temporal_length 20 --temporal_stride 10 --input_video_url your_input_data_dir --gt_video_url your_gt_data_dir
 ```
 
-## 🎯 Inference
-
-### Quick Inference
-
-```bash
-ToDO Coming Soon
+Non-reference data just for save results
+```
+python VP_code/test.py --name RNN_Swin_4 --model_name RNN_Swin_4 --which_iter 200000 --temporal_length 20 --temporal_stride 10 --input_video_url your_input_data_dir --gt_video_url your_input_data_dir
 ```
 
 ## 📜 Citation
