@@ -77,7 +77,7 @@ python VP_code/test.py --name RNN_Swin_4 --model_name RNN_Swin_4 --which_iter 20
 
 Non-reference data just for save results
 ```
-python VP_code/test.py --name RNN_Swin_4 --model_name RNN_Swin_4 --which_iter 200000 --temporal_length 20 --temporal_stride 10 --input_video_url your_input_data_dir --gt_video_url your_input_data_dir
+python VP_code/test2.py --name RNN_Swin_4 --model_name RNN_Swin_4 --which_iter 200000 --temporal_length 20 --temporal_stride 10 --input_video_url your_input_data_dir --gt_video_url your_input_data_dir
 ```
 
 ## 📜 Citation
