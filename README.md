@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
     - REDS (Type:sharp) [Download](https://seungjunnah.github.io/Datasets/reds.html)
 
-      Download the relabled scratch templates for the video degradation model. [Download](https://portland-my.sharepoint.com/personal/ziyuwan2-c_my_cityu_edu_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fziyuwan2%2Dc%5Fmy%5Fcityu%5Fedu%5Fhk%2FDocuments%2FCVPR2022%2Ftexture%5Ftemplate%2Ezip&parent=%2Fpersonal%2Fziyuwan2%2Dc%5Fmy%5Fcityu%5Fedu%5Fhk%2FDocuments%2FCVPR2022&ga=1) and put it on the root directory.
+      Download the relabled scratch templates for the video degradation model. [Download](https://github.com/raywzy/Bringing-Old-Films-Back-to-Life?tab=readme-ov-file#usage) and put it on the root directory.
 
       ```
       MambaOFR
